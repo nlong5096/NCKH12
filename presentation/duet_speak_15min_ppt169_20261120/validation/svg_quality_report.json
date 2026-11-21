@@ -1,0 +1,862 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "695a6a8a22114f390464945fddfa29eea8c8e9027919d1ced1e2451d009de1ce",
+    "file_count": 12,
+    "files": [
+      {
+        "file": "01_opening.svg",
+        "sha256": "37352ad21c5be04d309e2d532be124efde3aff69bd0b4be2bd06483da2ca9f30"
+      },
+      {
+        "file": "02_problem.svg",
+        "sha256": "7e0d7f62fc2c27c97fec71357140de6b31b1286fc2557bbad9ceacf2ad3a1908"
+      },
+      {
+        "file": "03_solution.svg",
+        "sha256": "f4b2c3f6aa496f897d55b713cbf61eb0d08ef0bf1c8000c6bde17d9d0c83b37e"
+      },
+      {
+        "file": "04_input.svg",
+        "sha256": "0d55232cede716e17ddf840a0accc1e590be437aed6a5ddf003f168e71fd5cda"
+      },
+      {
+        "file": "05_locate.svg",
+        "sha256": "7afc008a25c81e8584516be577ac8f68177a01d6ef59a9be09ed45f0267ad0ac"
+      },
+      {
+        "file": "06_analyse.svg",
+        "sha256": "ed46cb86d07923f6a03d8e5024011ddf3cba6db2fe5b0f56f414f44abb7b03f9"
+      },
+      {
+        "file": "07_feedback.svg",
+        "sha256": "b475f58e32daa225d5397e422adedad3ef6e5bccfbd302610782a8fc3cf6db69"
+      },
+      {
+        "file": "08_product.svg",
+        "sha256": "dd616a6e7e74b5cbdd49f1384d2a75617000727b9a3870af0f33e00a479e242c"
+      },
+      {
+        "file": "09_d043.svg",
+        "sha256": "ea282fa9cd4ee56a9e0e5f5be6f882bd0b8f87798cdd42c9cff8269c7093a150"
+      },
+      {
+        "file": "10_results.svg",
+        "sha256": "7aa6ebdee79c8b951728e419b67ca4f27fab5df66bd3826163ab32b93e686e88"
+      },
+      {
+        "file": "11_limits.svg",
+        "sha256": "72a3ca81aec097b54d38f184bd0e1ad318c5febc62321e798c392c81820982db"
+      },
+      {
+        "file": "12_conclusion.svg",
+        "sha256": "d47bc68c38c2f69646412803ea713f8b64d2768f3af96b34a303ea74e115a9ac"
+      }
+    ]
+  },
+  "summary": {
+    "total": 12,
+    "passed": 11,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "11_limits.svg",
+          "message": "data-pptx-replace-with marker mini-mae: Native PPTX chart visible text not projected: '0,44', '0,51', '0,70', '0,2', '0,4', '0,6', '0,8', '1,0'. Use categories/data labels/axis labels/legend or companion text. For formatted value labels, set data_labels.number_format to match the fallback. (blocks --native-charts-and-tables export)"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 12,
+    "totals": {
+      "text_elements": 184,
+      "image_placements": 4,
+      "icons": 0,
+      "svg_geometry_elements": 58,
+      "preset_shapes": 0,
+      "page_frame_elements": 12,
+      "marker_uses": 9,
+      "inline_emphasis_runs": 8,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 3,
+      "icons": 0,
+      "presets": 0,
+      "charts": 2,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 6,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 11,
+    "geometry_elements": {
+      "circle": 4,
+      "ellipse": 0,
+      "line": 22,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 32
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 2,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      0.1723,
+      0.3505
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_opening.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\01_opening.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 1,
+            "files": [
+              "product-home.png"
+            ],
+            "max_frame_share": 0.1723
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "37352ad21c5be04d309e2d532be124efde3aff69bd0b4be2bd06483da2ca9f30"
+    },
+    {
+      "file": "02_problem.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\02_problem.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "7e0d7f62fc2c27c97fec71357140de6b31b1286fc2557bbad9ceacf2ad3a1908"
+    },
+    {
+      "file": "03_solution.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\03_solution.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 3
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "f4b2c3f6aa496f897d55b713cbf61eb0d08ef0bf1c8000c6bde17d9d0c83b37e"
+    },
+    {
+      "file": "04_input.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\04_input.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 1,
+            "files": [
+              "product-assessment.png"
+            ],
+            "max_frame_share": 0.3285
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "0d55232cede716e17ddf840a0accc1e590be437aed6a5ddf003f168e71fd5cda"
+    },
+    {
+      "file": "05_locate.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\05_locate.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "7afc008a25c81e8584516be577ac8f68177a01d6ef59a9be09ed45f0267ad0ac"
+    },
+    {
+      "file": "06_analyse.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\06_analyse.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "ed46cb86d07923f6a03d8e5024011ddf3cba6db2fe5b0f56f414f44abb7b03f9"
+    },
+    {
+      "file": "07_feedback.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\07_feedback.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "b475f58e32daa225d5397e422adedad3ef6e5bccfbd302610782a8fc3cf6db69"
+    },
+    {
+      "file": "08_product.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\08_product.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 2,
+            "files": [
+              "product-results.png"
+            ],
+            "max_frame_share": 0.3505
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "dd616a6e7e74b5cbdd49f1384d2a75617000727b9a3870af0f33e00a479e242c"
+    },
+    {
+      "file": "09_d043.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\09_d043.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "ea282fa9cd4ee56a9e0e5f5be6f882bd0b8f87798cdd42c9cff8269c7093a150"
+    },
+    {
+      "file": "10_results.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\10_results.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "7aa6ebdee79c8b951728e419b67ca4f27fab5df66bd3826163ab32b93e686e88"
+    },
+    {
+      "file": "11_limits.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\11_limits.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "data-pptx-replace-with marker mini-mae: Native PPTX chart visible text not projected: '0,44', '0,51', '0,70', '0,2', '0,4', '0,6', '0,8', '1,0'. Use categories/data labels/axis labels/legend or companion text. For formatted value labels, set data_labels.number_format to match the fallback. (blocks --native-charts-and-tables export)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "72a3ca81aec097b54d38f184bd0e1ad318c5febc62321e798c392c81820982db"
+    },
+    {
+      "file": "12_conclusion.svg",
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\svg_output\\12_conclusion.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "d47bc68c38c2f69646412803ea713f8b64d2768f3af96b34a303ea74e115a9ac"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pptx_open_python": true,
+  "powerpoint_open_and_render": true,
+  "slides": 28,
+  "notes_nonempty": 28,
+  "slide_size_emu": [
+    12192000,
+    6858000
+  ],
+  "rendered_png": 28,
+  "drawingml_objects": {
+    "text_frames": 544,
+    "pictures": 3,
+    "groups": 180,
+    "other_shapes": 0
+  },
+  "render_dimensions": [
+    [
+      1600,
+      900
+    ]
+  ],
+  "source_app_tests_rerun": false,
+  "application_code_modified": false,
+  "zip_crc_ok": true
+}

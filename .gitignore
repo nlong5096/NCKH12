@@ -2,8 +2,11 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
-product_frontend/test-results/
-product_frontend/playwright-report/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
 *.egg-info/
 build/
 dist/
@@ -12,6 +15,34 @@ dist/
 .venv/
 venv/
 env/
+tmp/
+
+# JavaScript dependencies, build metadata and test output
+node_modules/
+.vite/
+dist-ssr/
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+blob-report/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Downloaded presentation tooling (installed locally)
+/presentation_intake/dependencies/
+/presentation_intake/browsers/
+
+# Regenerable presentation previews, backups and export bundles
+/presentation/*/.preview/
+/presentation/*/.review/
+/presentation/*/live_preview/
+/presentation/*/backup/
+/presentation/*/powerpoint_png/
+/presentation/*/exports/
+/presentation/*.zip
 
 # Secrets and local settings
 .env
@@ -62,3 +93,5 @@ model_cache/
 .idea/
 .DS_Store
 Thumbs.db
+Desktop.ini
+~$*

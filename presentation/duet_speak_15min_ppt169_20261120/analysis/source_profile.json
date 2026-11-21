@@ -1,0 +1,357 @@
+{
+  "schema": "pptx_intake_index.v1",
+  "deck_count": 1,
+  "decks": [
+    {
+      "schema": "pptx_intake_profile.v1",
+      "stem": "project_report",
+      "source_pptx": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\sources\\project_report.pptx",
+      "slide_count": 28,
+      "usage_contract": {
+        "standard_generation": "Use identity and slide-library fields as source facts and recommendation candidates only; do not preserve original page count, order, or coordinates unless the user selected the beautify profile.",
+        "beautify": "Promote source text, page order, page count, colors, fonts, and font sizes into locked constraints after user confirmation."
+      },
+      "artifacts": {
+        "identity": "project_report.identity.json",
+        "slide_library": "project_report.slide_library.json"
+      },
+      "canvas": {
+        "width_px": 1280,
+        "height_px": 720,
+        "aspect": 1.7778
+      },
+      "identity": {
+        "theme_palette": {
+          "background": "#FAFCFC",
+          "background_alt": "#EDF4F5",
+          "text": "#203746",
+          "text_alt": "#1F497D",
+          "hyperlink": "#007F7A",
+          "accent1": "#153448",
+          "accent2": "#007F7A",
+          "accent3": "#446CA0",
+          "accent4": "#153448",
+          "accent5": "#526875",
+          "accent6": "#C8D7DC",
+          "primary": "#153448"
+        },
+        "theme_fonts": {
+          "title": {
+            "latin": "Arial",
+            "ea": "Microsoft YaHei",
+            "cs": "Arial",
+            "scripts": {
+              "Jpan": "Microsoft YaHei",
+              "Hang": "Microsoft YaHei",
+              "Hans": "Microsoft YaHei",
+              "Hant": "Microsoft YaHei"
+            }
+          },
+          "body": {
+            "latin": "Arial",
+            "ea": "Microsoft YaHei",
+            "cs": "Arial",
+            "scripts": {
+              "Jpan": "Microsoft YaHei",
+              "Hang": "Microsoft YaHei",
+              "Hans": "Microsoft YaHei",
+              "Hant": "Microsoft YaHei"
+            }
+          }
+        },
+        "theme_sizes": {
+          "title": 30.0,
+          "body": 19.5,
+          "body_levels": [
+            19.5,
+            18.5,
+            17.0,
+            16.0,
+            14.5,
+            13.5,
+            12.0,
+            11.0,
+            10.0
+          ]
+        },
+        "observed_colors": [
+          {
+            "value": "#946017",
+            "count": 38
+          },
+          {
+            "value": "#E1E9EC",
+            "count": 18
+          },
+          {
+            "value": "#FFFFFF",
+            "count": 18
+          },
+          {
+            "value": "#A44242",
+            "count": 5
+          }
+        ],
+        "observed_fonts": {
+          "latin": [
+            {
+              "value": "Arial",
+              "count": 548
+            },
+            {
+              "value": "Consolas",
+              "count": 13
+            }
+          ],
+          "ea": [
+            {
+              "value": "Microsoft YaHei",
+              "count": 548
+            },
+            {
+              "value": "Consolas",
+              "count": 13
+            }
+          ]
+        },
+        "observed_sizes_pt": [
+          {
+            "value": 16.5,
+            "count": 180,
+            "chars": 4749
+          },
+          {
+            "value": 12.0,
+            "count": 99,
+            "chars": 4069
+          },
+          {
+            "value": 19.5,
+            "count": 68,
+            "chars": 2348
+          },
+          {
+            "value": 22.5,
+            "count": 68,
+            "chars": 1894
+          },
+          {
+            "value": 30.0,
+            "count": 46,
+            "chars": 1135
+          },
+          {
+            "value": 15.0,
+            "count": 8,
+            "chars": 298
+          },
+          {
+            "value": 24.0,
+            "count": 13,
+            "chars": 120
+          },
+          {
+            "value": 21.0,
+            "count": 13,
+            "chars": 109
+          }
+        ],
+        "layout_sizes_pt": []
+      },
+      "structure": {
+        "canvas_px": {
+          "width": 1280,
+          "height": 720
+        },
+        "page_types": [
+          {
+            "slide_index": 1,
+            "page_type": "cover_candidate",
+            "slot_count": 9,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 2,
+            "page_type": "content_candidate",
+            "slot_count": 13,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 3,
+            "page_type": "content_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 4,
+            "page_type": "content_candidate",
+            "slot_count": 15,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 5,
+            "page_type": "content_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 6,
+            "page_type": "content_candidate",
+            "slot_count": 22,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 7,
+            "page_type": "content_candidate",
+            "slot_count": 13,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 8,
+            "page_type": "content_candidate",
+            "slot_count": 11,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 9,
+            "page_type": "content_candidate",
+            "slot_count": 16,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 10,
+            "page_type": "content_candidate",
+            "slot_count": 16,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 11,
+            "page_type": "content_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 12,
+            "page_type": "content_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 13,
+            "page_type": "content_candidate",
+            "slot_count": 11,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 14,
+            "page_type": "content_candidate",
+            "slot_count": 9,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 15,
+            "page_type": "content_candidate",
+            "slot_count": 15,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 16,
+            "page_type": "content_candidate",
+            "slot_count": 18,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 17,
+            "page_type": "content_candidate",
+            "slot_count": 18,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 18,
+            "page_type": "content_candidate",
+            "slot_count": 19,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 19,
+            "page_type": "content_candidate",
+            "slot_count": 13,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 20,
+            "page_type": "content_candidate",
+            "slot_count": 26,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 21,
+            "page_type": "content_candidate",
+            "slot_count": 15,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 22,
+            "page_type": "content_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 23,
+            "page_type": "content_candidate",
+            "slot_count": 11,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 24,
+            "page_type": "content_candidate",
+            "slot_count": 9,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 25,
+            "page_type": "content_candidate",
+            "slot_count": 13,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 26,
+            "page_type": "content_candidate",
+            "slot_count": 9,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 27,
+            "page_type": "content_candidate",
+            "slot_count": 55,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 28,
+            "page_type": "ending_candidate",
+            "slot_count": 12,
+            "diagram_count": 0
+          }
+        ]
+      },
+      "tables": {
+        "table_count": 0,
+        "tables": []
+      },
+      "charts": {
+        "chart_count": 0,
+        "series_count": 0,
+        "multi_plot_chart_count": 0,
+        "charts": []
+      },
+      "diagrams": {
+        "diagram_count": 0,
+        "text_item_count": 0,
+        "unreadable_count": 0,
+        "warning_count": 0,
+        "slides_with_diagrams": [],
+        "diagrams": []
+      }
+    }
+  ]
+}

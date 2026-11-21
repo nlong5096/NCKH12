@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Arial" font-size="26" data-pptx-page-role="ending">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FAFCFC"/>
+<g id="closing-kicker" data-pptx-bounds="56 29 1168 47"><text x="56" y="54" font-size="22" font-weight="bold" fill="#007F7A">DUET / SPEAK · KẾT LUẬN VÀ THẢO LUẬN</text></g>
+<g id="closing-takeaway" data-pptx-bounds="56 131 1168 161"><text x="56" y="189" font-size="56" font-weight="bold" fill="#153448">Bằng chứng trước,<tspan x="56" dy="70" fill="#007F7A">kết luận sau.</tspan></text></g>
+<g id="achieved-and-pending" data-pptx-bounds="56 337 1168 165"><text x="56" y="374" font-size="30" font-weight="bold" fill="#153448">Đã có nguyên mẫu và quy trình có truy vết.</text><text x="56" y="430" fill="#203746">Dùng video tham chiếu · Giữ âm thanh gốc · Cho phép giáo viên xem lại.</text><text x="56" y="487" fill="#203746">Độ tin cậy chấm điểm cần kiểm định độc lập trước khi dùng chính thức.</text></g>
+<g id="discussion-ask" data-pptx-bounds="56 547 1168 101"><line x1="56" y1="548" x2="1224" y2="548" stroke="#007F7A" stroke-width="3"/><text x="56" y="590" font-size="30" font-weight="bold" fill="#153448">Đề nghị: chấm độc lập và hoàn tất kiểm định 18 bài giữ riêng.</text><text x="56" y="634" font-size="22" fill="#526875">Mời phản biện về phương pháp, kết quả và điều kiện sử dụng · Phụ lục: trang 25–28</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="56 670 1168 28" font-size="16" fill="#526875"><text x="56" y="688">Kết luận theo Báo cáo Word · Kết quả căn chỉnh 62/68 và WER 5,02% chỉ có ý nghĩa trong các phép thử đã nêu.</text><text x="1224" y="688" text-anchor="end">24 / 28</text></g>
+</svg>

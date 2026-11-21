@@ -10,7 +10,7 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "capture": "node scripts/capture.mjs",
-    "contact-sheet": "python scripts/contact-sheet.py",
+    "contact-sheet": "node scripts/review.mjs",
     "export:pdf": "node scripts/export-pdf.mjs"
   },
   "dependencies": {

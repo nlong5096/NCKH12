@@ -1,0 +1,21 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,SourceDisplayRatio,RatioSource,Format,HasTransparentPixels,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category
+1,image_001.png,2052,294,6.98,6.98,6.98,native,PNG,False,1,,bitmap,True,True,15.9,Ultra-wide
+2,image_001_2.png,2052,294,6.98,6.98,6.98,native,PNG,False,1,,bitmap,True,True,15.9,Ultra-wide
+3,image_002.png,1600,420,3.81,3.81,3.81,native,PNG,False,1,,bitmap,True,True,44.5,Ultra-wide
+4,image_002_2.png,1600,420,3.81,3.81,3.81,native,PNG,False,1,,bitmap,True,True,44.5,Ultra-wide
+5,image_003.png,1872,477,3.92,3.92,3.92,native,PNG,False,1,,bitmap,True,True,41.5,Ultra-wide
+6,image_003_2.png,1872,477,3.92,3.92,3.92,native,PNG,False,1,,bitmap,True,True,41.5,Ultra-wide
+7,image_004.png,2052,522,3.93,3.93,3.93,native,PNG,False,1,,bitmap,True,True,51.2,Ultra-wide
+8,image_004_2.png,2052,522,3.93,3.93,3.93,native,PNG,False,1,,bitmap,True,True,51.2,Ultra-wide
+9,image_005.png,855,451,1.90,1.90,1.90,native,PNG,False,1,,bitmap,True,True,50.1,Wide landscape
+10,image_005_2.png,855,451,1.90,1.90,1.90,native,PNG,False,1,,bitmap,True,True,50.1,Wide landscape
+11,image_006.png,1706,839,2.03,2.03,1.74,native,PNG,False,1,,bitmap,True,True,510.1,Ultra-wide
+12,image_006_2.png,1706,839,2.03,2.03,1.74,native,PNG,False,1,,bitmap,True,True,510.1,Ultra-wide
+13,image_007.png,886,833,1.06,1.06,1.26,native,PNG,False,1,,bitmap,True,True,66.3,Near square
+14,image_007_2.png,886,833,1.06,1.06,1.26,native,PNG,False,1,,bitmap,True,True,66.3,Near square
+15,image_008.png,1281,892,1.44,1.44,1.62,native,PNG,False,1,,bitmap,True,True,234.4,Standard landscape
+16,image_008_2.png,1281,892,1.44,1.44,1.62,native,PNG,False,1,,bitmap,True,True,234.4,Standard landscape
+17,product-assessment.png,1440,900,1.60,1.60,,native,PNG,False,1,,bitmap,True,True,261.3,Wide landscape
+18,product-evidence.png,1440,1656,0.87,0.87,,native,PNG,False,1,,bitmap,True,True,283.9,Near square
+19,product-home.png,1440,900,1.60,1.60,,native,PNG,False,1,,bitmap,True,True,395.9,Wide landscape
+20,product-results.png,1440,4102,0.35,0.35,,native,PNG,False,1,,bitmap,True,True,529.5,Portrait

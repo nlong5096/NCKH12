@@ -1,0 +1,149 @@
+{
+  "source": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\sources\\project_report.pptx",
+  "slide_count": 28,
+  "canvas": {
+    "width_px": 1280,
+    "height_px": 720,
+    "aspect": 1.7778
+  },
+  "theme": {
+    "palette": {
+      "background": "#FAFCFC",
+      "background_alt": "#EDF4F5",
+      "text": "#203746",
+      "text_alt": "#1F497D",
+      "hyperlink": "#007F7A",
+      "accent1": "#153448",
+      "accent2": "#007F7A",
+      "accent3": "#446CA0",
+      "accent4": "#153448",
+      "accent5": "#526875",
+      "accent6": "#C8D7DC",
+      "primary": "#153448"
+    },
+    "fonts": {
+      "title": {
+        "latin": "Arial",
+        "ea": "Microsoft YaHei",
+        "cs": "Arial",
+        "scripts": {
+          "Jpan": "Microsoft YaHei",
+          "Hang": "Microsoft YaHei",
+          "Hans": "Microsoft YaHei",
+          "Hant": "Microsoft YaHei"
+        }
+      },
+      "body": {
+        "latin": "Arial",
+        "ea": "Microsoft YaHei",
+        "cs": "Arial",
+        "scripts": {
+          "Jpan": "Microsoft YaHei",
+          "Hang": "Microsoft YaHei",
+          "Hans": "Microsoft YaHei",
+          "Hant": "Microsoft YaHei"
+        }
+      }
+    },
+    "sizes": {
+      "title": 30.0,
+      "body": 19.5,
+      "body_levels": [
+        19.5,
+        18.5,
+        17.0,
+        16.0,
+        14.5,
+        13.5,
+        12.0,
+        11.0,
+        10.0
+      ]
+    }
+  },
+  "observed": {
+    "fonts": {
+      "latin": [
+        {
+          "value": "Arial",
+          "count": 548
+        },
+        {
+          "value": "Consolas",
+          "count": 13
+        }
+      ],
+      "ea": [
+        {
+          "value": "Microsoft YaHei",
+          "count": 548
+        },
+        {
+          "value": "Consolas",
+          "count": 13
+        }
+      ]
+    },
+    "sizes_pt": [
+      {
+        "value": 16.5,
+        "count": 180,
+        "chars": 4749
+      },
+      {
+        "value": 12.0,
+        "count": 99,
+        "chars": 4069
+      },
+      {
+        "value": 19.5,
+        "count": 68,
+        "chars": 2348
+      },
+      {
+        "value": 22.5,
+        "count": 68,
+        "chars": 1894
+      },
+      {
+        "value": 30.0,
+        "count": 46,
+        "chars": 1135
+      },
+      {
+        "value": 15.0,
+        "count": 8,
+        "chars": 298
+      },
+      {
+        "value": 24.0,
+        "count": 13,
+        "chars": 120
+      },
+      {
+        "value": 21.0,
+        "count": 13,
+        "chars": 109
+      }
+    ],
+    "colors": [
+      {
+        "value": "#946017",
+        "count": 38
+      },
+      {
+        "value": "#E1E9EC",
+        "count": 18
+      },
+      {
+        "value": "#FFFFFF",
+        "count": 18
+      },
+      {
+        "value": "#A44242",
+        "count": 5
+      }
+    ]
+  },
+  "layout_sizes_pt": []
+}

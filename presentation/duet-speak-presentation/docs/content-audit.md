@@ -1,34 +1,47 @@
-# Kiểm toán nội dung và truy vết nguồn
+# Đối chiếu nội dung với báo cáo gốc
 
-Nguồn khoa học chính: `presentation/BAO_CAO_NCKH12.docx`. Tất cả số liệu dưới đây đã được đối chiếu với văn bản, 5 bảng và 8 ảnh nhúng trong báo cáo. Ảnh sản phẩm ở slide 12 là `image6.png` và `image7.png` trích trực tiếp từ DOCX; ảnh có tên học sinh không được sử dụng.
+Nguồn chính: `presentation/duet_speak_report_20261120/sources/PHẦN MỀM HỖ TRỢ ĐÁNH GIÁ LUYỆN NÓI TIẾNG ANH ĐA PHƯƠNG THỨC.docx`. Đã đọc bản trích toàn văn `sources/report.md`, đối chiếu XML DOCX ở các kết quả và mục 3.7, xem biểu đồ gốc Hình 3 và ba ảnh giao diện đang dùng. Bản `presentation_intake/report.md` có cùng SHA-256 với bản trong sources: `0445B739AD6A46736038402868B70CB1F7B2B933341DBB6DD194908725A7C7E5`.
 
-| Slide | Nội dung chính | Số liệu / tuyên bố định lượng | Nguồn báo cáo | Trạng thái xác minh |
-|---|---|---|---|---|
-| 01 | Phạm vi DUET / SPEAK | Không có số liệu kết quả | Bìa, Tóm tắt | Đã xác minh; diễn đạt là nguyên mẫu hỗ trợ |
-| 02 | Điểm nghẽn chấm thủ công | Khoảng 150 video/tuần trong kịch bản 5 lớp × 30 học sinh | Phần mở đầu, mục 1 | Đã xác minh; không suy ra số giờ tiết kiệm |
-| 03 | Căn chỉnh trước khi chấm | Không có tỷ lệ kết quả | Phần mở đầu, mục 1–2 | Đã xác minh |
-| 04 | Tính mới reference-aware | Sáu bước minh họa phương pháp, không phải sáu phép thử | Tóm tắt; Phần mở đầu mục 3; Chương 4.1 | Đã xác minh; không nhận tác quyền mô hình nền |
-| 05 | Cấu trúc dữ liệu | 68 tổng; 50 development; 18 holdout; 12 ratings; 6 transcript; 3 P2.5 | Chương 2.1–2.3; Hình 1 | Đã xác minh; các tập không gộp |
-| 06 | Pipeline Duet | Sáu bước xử lý | Chương 2.4; Hình 2 | Đã xác minh; residual chỉ hỗ trợ định vị |
-| 07 | Kiến trúc kỹ thuật | React/TS; FastAPI/Python; FFmpeg/OpenCV/VAD; small.en; Fluency/MultiPA | Chương 2.5.1–2.5.4 | Đã xác minh vai trò; không đổi scorer |
-| 08 | Thiết kế thực nghiệm | P1.4 N=68; ASR N=6; LOOCV N=12; P2.5 N=3; holdout N=18 chưa hoàn tất | Chương 2.6; Chương 3.1–3.4; Chương 4.2 | Đã xác minh; không tạo “accuracy AI” tổng quát |
-| 09 | Khả năng căn chỉnh | 58 image + 4 audio-assisted = 62/68 = 91,2%; 6 chưa đủ điều kiện | Chương 3.1; Bảng 2 | Đã xác minh; ghi rõ không phải độ chính xác chấm nói |
-| 10 | So sánh ASR | small.en 5,02%; distil-large-v3 8,69%; large-v3-turbo 8,81%; N=6 | Chương 3.2; Hình 3 | Đã xác minh; WER không phải phát âm đúng |
-| 11 | Sai lệch điểm | LOOCV MAE: 0,4204 / 0,4912 / 0,5881; P2.5: 0,5133 / 0,4360 / 0,7027; same band 2/3, 2/3, 1/3; within-one 3/3, 3/3, 2/3 | Chương 3.3–3.4; Bảng 3; Hình 4 | Đã xác minh; N=3 không suy rộng |
-| 12 | Sản phẩm | Không thêm score mới; ảnh giao diện thật | Chương 3.6; ảnh giao diện nhúng trong DOCX | Đã xác minh; dữ liệu nhận diện không dùng |
-| 13 | Giới hạn và hướng phát triển | Một task T001; một người đánh giá có AI hỗ trợ; 18 holdout chưa kiểm định cuối | Chương 4.2–4.6; Bảng 5 | Đã xác minh; kế hoạch tách khỏi kết quả |
-| 14 | Kết luận | Không có số liệu mới | Kết luận và kiến nghị | Đã xác minh; không có CEFR/IELTS/Overall |
-| A01 | Công thức fluency | Ngưỡng pause khoảng 0,25 s; long pause khoảng 0,70 s | Chương 2.5.2 | Đã xác minh; mỗi feature chỉ là một phần bằng chứng |
-| A02 | WER, MAE, LOOCV | Không có số liệu mới | Chương 2.6; Chương 3.2–3.4 | Đã xác minh cách diễn giải |
-| A03 | Cổng an toàn và riêng tư | 5 alignment unreliable + 1 no-audio trong nhóm loại | Chương 2.8; Chương 3.1; Chương 4.1 | Đã xác minh; slide không công khai media học sinh |
-| A04 | Ledger công nghệ | Không có benchmark mới | Chương 2.5.4; Tài liệu tham khảo | Đã xác minh ranh giới ownership |
+## Những vấn đề trong bản cũ
 
-## Các kiểm tra chống phóng đại
+- Phần chính đi sớm vào kiến trúc, thuật ngữ tiếng Anh, VAD, ASR và pipeline, trong khi quá trình sử dụng và kết quả đầu ra chưa được giải thích đủ.
+- Kết quả sản phẩm đặt sau phần kỹ thuật; mức độ chứng cứ của năm khía cạnh luyện nói chưa có một slide rõ ràng.
+- Thiếu cập nhật mục 3.7: chấm thêm 10 bài, chưa công bố chỉ số; đang đối chiếu 68 video, tách riêng kết quả của 18 bài giữ riêng.
+- Câu “không gửi media tới dịch vụ chấm bên ngoài” trong bản cũ rộng hơn thông tin cần thiết. Bản mới trình bày đúng ưu tiên xử lý cục bộ và việc AI chỉ viết lại góp ý khi được phép.
+- Nguồn `BAO_CAO_NCKH12.docx` trong tài liệu bàn giao cũ không tồn tại ở checkout. Đã thay bằng đường dẫn có thật.
+- `src/data/` không có trong checkout vì quy tắc ignore `data/` ở gốc. Đã phục hồi dữ liệu, metadata, lời dẫn và thêm ngoại lệ ignore để có thể lưu chúng vào Git.
 
-- Không có số Pearson, ICC hoặc QWK tự tạo.
-- Không tuyên bố cải thiện năng lực học sinh vì chưa có nghiên cứu trước–sau.
-- Không tuyên bố hệ thống tốt hơn sản phẩm khác khi chưa có đối chứng.
-- Không biến ảnh Results của sản phẩm thành chứng nhận trình độ.
-- Không tuyên bố holdout đã đánh giá.
-- Không dùng ảnh DOCX chứa tên học sinh.
+## Mạch nội dung và truy vết
 
+| Slide | Vai trò | Nguồn | Số liệu, giới hạn cần giữ |
+|---|---|---|---|
+| S01 | Giới thiệu đề tài và mục đích | Bìa, Tóm tắt | Nguyên mẫu hỗ trợ, bài T001 |
+| S02 | Điểm nghẽn của giáo viên | Mở đầu 1 | Khoảng 150 video/tuần; chưa đo giờ tiết kiệm |
+| S03 | Thế nào là phản hồi hữu ích | 1.1; Mở đầu 2 | Ví dụ nguyên lý, không phải kết quả đo |
+| S04 | Giải thích lợi thế video mẫu | 1.2; 2.4–2.5.1 | Định vị trước; dùng âm thanh gốc để đánh giá |
+| S05 | Luồng sử dụng sản phẩm | 3.6 | Chọn tệp đã quay → phân tích → xem kết quả; mở bài gần đây |
+| S06 | Sáu bước hoạt động | 2.4; Hình 2 | Có cảnh báo, dừng hoặc kiểm tra người nghe |
+| S07 | Các đầu ra và chứng cứ | 1.1; 3.5–3.6, Bảng 4 | Trôi chảy/phát âm/ngữ điệu còn giới hạn; mức dễ hiểu chưa có điểm xác nhận; tổng hợp chỉ mô tả |
+| S08 | Minh họa kết quả và gợi ý | 3.6; ảnh sản phẩm | Điểm trong ảnh không dùng làm benchmark; AI không thay điểm hoặc thêm lỗi |
+| S09 | Tổ chức dữ liệu | 2.1–2.3; Hình 1 | 68 = 50 phát triển + 18 giữ riêng; 12 điểm tham chiếu, 6 bản chép, 3 thử nhỏ; biến thể không là người mới |
+| S10 | Cách nghiên cứu và kiểm tra | 2.5–2.7; 3.1–3.4 | Bốn câu hỏi khác nhau, không suy ra một độ chính xác AI chung |
+| S11 | Kết quả căn chỉnh | 3.1; Bảng 2 | 58 + 4 = 62/68 (91,2%); 5 không khớp tin cậy, 1 không âm thanh |
+| S12 | Kết quả chép lời | 3.2; Hình 3 | small.en 5,02%; distil-large-v3 8,69%; large-v3-turbo 8,81%; N=6 |
+| S13 | Sai lệch theo tiêu chí | 3.3–3.4; Bảng 3; Hình 4 | Trôi chảy/phát âm/ngữ điệu: LOOCV 0,4204/0,4912/0,5881; P2.5 0,5133/0,4360/0,7027 |
+| S14 | Ý nghĩa và giới hạn ba bài | 2.6; 3.4 | Cùng mức: 2/3, 2/3, 1/3; lệch ≤1: 3/3, 3/3, 2/3; mẫu ít đa dạng |
+| S15 | Trạng thái mới nhất trong báo cáo | 3.7 | Chấm thêm 10: chưa có chỉ số; 68 đang làm; giữ riêng 18 chưa có kết quả cuối |
+| S16 | Giá trị ứng dụng và vai trò | Mở đầu 1–2; 2.8; 4.6; Kiến nghị | Hỗ trợ luyện tập; có chi phí cục bộ; đồng ý và quyền rút dữ liệu |
+| S17 | Giới hạn và kế hoạch | 4.2–4.5; Bảng 5 | Chưa chứng minh hiệu quả giáo dục; cần nhiều người chấm, dữ liệu và thử trước–sau |
+| S18 | Kết luận đúng phạm vi | Kết luận; 4.1 | Nguyên mẫu hoạt động, kiểm chứng bước đầu; giáo viên giữ vai trò đánh giá |
+| A01 | Kiến trúc | 2.5.4 | React → FastAPI → Python; mô hình có sẵn |
+| A02 | Thuật toán căn chỉnh | 2.5.1 | Neo phủ ≥70%; các ngưỡng 0,50/0,60/0 dB/0,30; âm thanh gốc |
+| A03 | Đo độ trôi chảy | 2.5.2 | 5 công thức; dừng 0,25 s; dừng dài 0,70 s |
+| A04 | MultiPA và hiệu chỉnh | 2.5.3; 3.4 | Đoạn ≤14,5 s; không fine-tune; phát âm trong [3;4], ngữ điệu {2,3,4,5} |
+| A05 | Bảng kết quả đầy đủ | 3.3–3.4 | Giữ 4 chữ số thập phân, mẫu số và định nghĩa MAE/LOOCV |
+| A06 | Cổng chất lượng và dữ liệu | 2.7–2.8; 3.1; 3.5–3.6 | Mã bài, đồng ý, lưu vết; 11/11 bỏ tên chủ đề khỏi chấm đọc đủ |
+| A07 | Thiết kế kiểm định tiếp theo | 3.7; 4.4–4.5 | Pearson/ICC/QWK chưa có kết quả; ≤0,5 điểm và ≥80% là mục tiêu |
+| A08 | Nguồn nghiên cứu | Tài liệu tham khảo | Dẫn tên tác giả và tài liệu, tránh lặp các số chú thích chưa thống nhất trong báo cáo |
+
+## Những điều không được suy ra
+
+91,2% không phải độ chính xác chấm nói. 5,02% không phải tỷ lệ phát âm sai. Không gộp các tập thử, không tạo hệ số đồng thuận, không khẳng định đã cải thiện năng lực học sinh, không quy đổi điểm luyện tập sang CEFR/IELTS. Kết quả hiển thị trên ảnh sản phẩm là minh họa giao diện, không thay thế bảng số liệu thực nghiệm.

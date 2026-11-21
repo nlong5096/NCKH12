@@ -1,0 +1,37 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "docx",
+  "source": {
+    "path": "C:/Users/Eden2Three/Downloads/PHẦN MỀM HỖ TRỢ ĐÁNH GIÁ LUYỆN NÓI TIẾNG ANH ĐA PHƯƠNG THỨC.docx",
+    "name": "PHẦN MỀM HỖ TRỢ ĐÁNH GIÁ LUYỆN NÓI TIẾNG ANH ĐA PHƯƠNG THỨC.docx",
+    "suffix": ".docx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 1138606
+  },
+  "outputs": {
+    "markdown": "report.md",
+    "asset_dir": "report_files",
+    "image_manifest": "report_files/image_manifest.json",
+    "image_count": 8
+  },
+  "markdown": {
+    "line_count": 509,
+    "char_count": 45979,
+    "heading_count": 37,
+    "table_count": 5,
+    "image_ref_count": 8,
+    "link_count": 35
+  },
+  "warnings": [
+    "DOCX content controls: 1 flattened to displayed content; interactive properties omitted.",
+    "An unrecognised element was ignored: v:stroke",
+    "An unrecognised element was ignored: v:line",
+    "Unrecognised paragraph style: Tieu de phu (Style ID: Tieudephu)",
+    "Unrecognised paragraph style: TOC Heading (Style ID: TOCHeading)",
+    "Unrecognised paragraph style: toc 1 (Style ID: TOC1)",
+    "Unrecognised paragraph style: toc 2 (Style ID: TOC2)",
+    "Unrecognised paragraph style: caption (Style ID: Caption)"
+  ]
+}

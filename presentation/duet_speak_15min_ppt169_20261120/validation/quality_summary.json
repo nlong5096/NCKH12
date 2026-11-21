@@ -1,0 +1,103 @@
+{
+  "slides": 12,
+  "notes": 12,
+  "total_seconds": 900,
+  "editable_text_shapes": 184,
+  "pictures": 4,
+  "slide_size_emu": [
+    12192000,
+    6858000
+  ],
+  "PowerPoint_rendered_slides": 12,
+  "visual_review": "All 12 final PowerPoint renders inspected; no overlap, clipping, blank slides or missing assets.",
+  "no_auto_advance": true,
+  "original_28_slide_sha256": "96964dbc7a08e4209c8e03740d36f152f994619873e5bcca608f6f244899c2c6",
+  "original_preserved": true,
+  "final_pptx_sha256": "52c81b973555b4ac1df101b96f2a47d644b8543780700ee9590e0c598b3f1d2b",
+  "per_slide": [
+    {
+      "slide": 1,
+      "notes_chars": 1004,
+      "seconds": 60,
+      "editable_text_shapes": 9,
+      "pictures": 1
+    },
+    {
+      "slide": 2,
+      "notes_chars": 996,
+      "seconds": 60,
+      "editable_text_shapes": 13,
+      "pictures": 0
+    },
+    {
+      "slide": 3,
+      "notes_chars": 1630,
+      "seconds": 120,
+      "editable_text_shapes": 19,
+      "pictures": 0
+    },
+    {
+      "slide": 4,
+      "notes_chars": 989,
+      "seconds": 60,
+      "editable_text_shapes": 11,
+      "pictures": 1
+    },
+    {
+      "slide": 5,
+      "notes_chars": 1320,
+      "seconds": 90,
+      "editable_text_shapes": 18,
+      "pictures": 0
+    },
+    {
+      "slide": 6,
+      "notes_chars": 1375,
+      "seconds": 90,
+      "editable_text_shapes": 17,
+      "pictures": 0
+    },
+    {
+      "slide": 7,
+      "notes_chars": 1035,
+      "seconds": 60,
+      "editable_text_shapes": 15,
+      "pictures": 0
+    },
+    {
+      "slide": 8,
+      "notes_chars": 1174,
+      "seconds": 80,
+      "editable_text_shapes": 13,
+      "pictures": 2
+    },
+    {
+      "slide": 9,
+      "notes_chars": 1191,
+      "seconds": 80,
+      "editable_text_shapes": 15,
+      "pictures": 0
+    },
+    {
+      "slide": 10,
+      "notes_chars": 1178,
+      "seconds": 80,
+      "editable_text_shapes": 19,
+      "pictures": 0
+    },
+    {
+      "slide": 11,
+      "notes_chars": 999,
+      "seconds": 60,
+      "editable_text_shapes": 22,
+      "pictures": 0
+    },
+    {
+      "slide": 12,
+      "notes_chars": 1097,
+      "seconds": 60,
+      "editable_text_shapes": 13,
+      "pictures": 0
+    }
+  ]
+}

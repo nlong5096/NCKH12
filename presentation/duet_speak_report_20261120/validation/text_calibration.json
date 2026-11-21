@@ -1,0 +1,142 @@
+{
+  "roles": {
+    "body": {
+      "family": "Arial",
+      "size": 26.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.6,
+      "latin_chars_per_100px": 7.7,
+      "caps_chars_per_100px": 6.0,
+      "digits_chars_per_100px": 6.5,
+      "citation_chars_per_100px": 7.6,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1333.1,
+        "slide": "P25",
+        "text": "report13/11 ghi193passed2skipped +5fron…"
+      }
+    },
+    "title": {
+      "family": "Arial",
+      "size": 40.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 2.4,
+      "latin_chars_per_100px": 4.8,
+      "caps_chars_per_100px": 3.9,
+      "digits_chars_per_100px": 4.2,
+      "citation_chars_per_100px": 4.8,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1104.3,
+        "slide": "P11",
+        "text": "MultiPA được tích hợp, hiệu chỉnh trong…"
+      }
+    },
+    "subtitle": {
+      "family": "Arial",
+      "size": 32.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 2.9,
+      "latin_chars_per_100px": 6.3,
+      "caps_chars_per_100px": 4.9,
+      "digits_chars_per_100px": 5.3,
+      "citation_chars_per_100px": 6.2,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1260.9,
+        "slide": "P11",
+        "text": "Chọn phương pháp theo từng tiêu chí và …"
+      }
+    },
+    "annotation": {
+      "family": "Arial",
+      "size": 22.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 4.3,
+      "latin_chars_per_100px": 9.2,
+      "caps_chars_per_100px": 7.1,
+      "digits_chars_per_100px": 7.7,
+      "citation_chars_per_100px": 8.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "code": {
+      "family": "Consolas",
+      "size": 20.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 4.7,
+      "latin_chars_per_100px": 8.5,
+      "caps_chars_per_100px": 8.1,
+      "digits_chars_per_100px": 8.6,
+      "citation_chars_per_100px": 8.4,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "cover": {
+      "family": "Arial",
+      "size": 56.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 1.7,
+      "latin_chars_per_100px": 3.4,
+      "caps_chars_per_100px": 2.8,
+      "digits_chars_per_100px": 3.0,
+      "citation_chars_per_100px": 3.4,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "data": {
+      "family": "Arial",
+      "size": 28.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.4,
+      "latin_chars_per_100px": 7.2,
+      "caps_chars_per_100px": 5.6,
+      "digits_chars_per_100px": 6.1,
+      "citation_chars_per_100px": 7.0,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "display": {
+      "family": "Arial",
+      "size": 72.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 1.3,
+      "latin_chars_per_100px": 2.7,
+      "caps_chars_per_100px": 2.1,
+      "digits_chars_per_100px": 2.4,
+      "citation_chars_per_100px": 2.7,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "footnote": {
+      "family": "Arial",
+      "size": 16.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 5.9,
+      "latin_chars_per_100px": 12.6,
+      "caps_chars_per_100px": 9.8,
+      "digits_chars_per_100px": 10.6,
+      "citation_chars_per_100px": 12.3,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "lead": {
+      "family": "Arial",
+      "size": 30.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 3.1,
+      "latin_chars_per_100px": 6.4,
+      "caps_chars_per_100px": 5.1,
+      "digits_chars_per_100px": 5.7,
+      "citation_chars_per_100px": 6.4,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    }
+  },
+  "script_samples": {},
+  "source": "spec_lock.md",
+  "generated_at": "2026-11-20T08:37:09Z",
+  "notes": [
+    "rates for cover, display, lead, title are measured at bold weight"
+  ]
+}

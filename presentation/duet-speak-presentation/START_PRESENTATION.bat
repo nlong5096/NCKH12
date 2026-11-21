@@ -12,13 +12,13 @@ if errorlevel 1 (
 
 if not exist "node_modules" (
   echo Preparing the presentation for first use...
-  call corepack pnpm install
+  call npm install --no-package-lock
   if errorlevel 1 goto :failed
 )
 
 echo Opening DUET / SPEAK at http://127.0.0.1:4173/
 start "" /b powershell -NoProfile -WindowStyle Hidden -Command "Start-Sleep -Seconds 2; Start-Process 'http://127.0.0.1:4173/#/s01-f0'"
-call corepack pnpm dev --host 127.0.0.1 --port 4173
+call npm run dev -- --host 127.0.0.1 --port 4173 --strictPort
 exit /b %errorlevel%
 
 :failed

@@ -1,113 +1,211 @@
-# Speaker notes — 14 slide chính
+# Lời dẫn và thời lượng
 
-Thời lượng mục tiêu: **11 phút 15 giây**. Phần phụ lục chỉ dùng khi hội đồng hỏi.
+18 slide chính: 14 phút 45 giây, chưa tính trao đổi. Phụ lục dùng theo câu hỏi. Nhấn N để đọc lời dẫn trên Web Slide.
 
-## Slide 01 — Mở đầu · 0:25
+## S01 · Hiểu bài nói, chỉ rõ cách luyện tiếp
 
-**Thông điệp:** DUET / SPEAK là nguyên mẫu hỗ trợ đánh giá luyện nói từ video tham chiếu, không thay giáo viên.
+Giới thiệu đề tài từ nhu cầu phản hồi bài luyện nói. Nhóm đã xây dựng nguyên mẫu hỗ trợ giáo viên, nghiên cứu trên bài T001.
 
-“Bài toán của nhóm bắt đầu từ một dạng bài quen thuộc: học sinh xem video mẫu rồi quay Duet để luyện nói. DUET / SPEAK giúp biến video đó thành bằng chứng có thể kiểm tra, để giáo viên phản hồi nhanh và có căn cứ hơn.”
+- Thời lượng: 50 giây
+- Lưu ý: Không giới thiệu như công cụ chấm nói đã được kiểm định rộng rãi.
+- Nguồn: Bìa; Tóm tắt
 
-**Nhấn mạnh:** “hỗ trợ đánh giá”. **Tránh:** gọi đây là hệ thống chấm trình độ chính thức.
+## S02 · Điểm nghẽn 150 video mỗi tuần
 
-## Slide 02 — Bài toán thực tiễn · 0:40
+Phương pháp luyện nói bằng Duet đã được áp dụng. Khi số bài tăng, giáo viên phải mở, tìm đoạn, đối chiếu và viết phản hồi; phần lặp lại trở thành điểm nghẽn.
 
-**Thông điệp:** 150 video mỗi tuần tạo ra điểm nghẽn phản hồi thủ công.
+- Thời lượng: 60 giây
+- Lưu ý: Không quy đổi thành số giờ tiết kiệm vì báo cáo chưa đo thời gian.
+- Nguồn: Phần mở đầu, mục 1
 
-“Nếu năm lớp, mỗi lớp khoảng ba mươi học sinh cùng nộp bài, giáo viên có thể phải xử lý khoảng 150 video một tuần. Mỗi bài đều cần mở video, tìm đoạn học sinh nói, đối chiếu mẫu, nghe chỗ dừng và viết phản hồi. Nhóm tập trung tự động hóa phần đo đạc lặp lại; giáo viên vẫn quyết định nhận xét sư phạm.”
+## S03 · Phản hồi giúp học sinh luyện tiếp
 
-**Tránh:** tự quy đổi 150 video thành số giờ tiết kiệm khi chưa đo.
+Đọc hai ví dụ để thấy vì sao nhận xét cần chỉ ra hành động tiếp theo. Đây là ví dụ trong báo cáo, không phải kết quả của một học sinh cụ thể.
 
-## Slide 03 — Vấn đề và mục tiêu · 0:40
+- Thời lượng: 40 giây
+- Lưu ý: Không coi ví dụ minh họa là minh chứng thực nghiệm.
+- Nguồn: Chương 1.1; Mở đầu, mục 2
 
-**Thông điệp:** Phải tìm đúng lời học sinh trước khi đánh giá.
+## S04 · Tìm lời học sinh nhờ video mẫu
 
-“Video Duet có thể chứa giọng mẫu, nhạc và lời học sinh. Vì vậy, việc đầu tiên không phải là chấm, mà là đặt đúng video Duet vào trục thời gian của video mẫu, xác định vùng học sinh nói, rồi mới trích bằng chứng. Ba mục tiêu là căn chỉnh, định vị và tạo bằng chứng có thể kiểm tra.”
+Giọng mẫu có thể còn trộn trong Duet. Lợi thế là đã biết video mẫu, nên có thể so khớp để tìm đúng vùng lời học sinh. Sau đó lấy âm thanh từ bản gốc để không làm biến dạng phát âm.
 
-**Tránh:** coi mọi tiếng nói trong Duet là lời học sinh.
+- Thời lượng: 60 giây
+- Lưu ý: Không tuyên bố tách giọng hoàn hảo. Sơ đồ thời gian là minh họa.
+- Nguồn: Chương 1.2; 2.4–2.5.1
 
-## Slide 04 — Điểm mới · 1:00
+## S05 · Ba thao tác sử dụng
 
-**Thông điệp:** Video tham chiếu đã biết là tín hiệu tổ chức toàn pipeline.
+Học sinh quay Duet trước. Người dùng chọn tệp đã hoàn thành, chạy phân tích và xem kết quả; có thể mở lại bài gần đây. Đây là ảnh giao diện thật trong báo cáo.
 
-“Nếu bỏ qua video mẫu, hệ thống phải suy đoán nguồn giọng từ một tín hiệu hỗn hợp. Cách của nhóm là tận dụng video mẫu đã biết. Quy trình đi từ video mẫu và video Duet, căn chỉnh hai trục thời gian, tìm vùng lời học sinh, rồi quay lại âm thanh gốc để lấy bằng chứng và phản hồi. Điểm đóng góp nằm ở reference-aware alignment, bảo toàn âm thanh gốc cho đánh giá và cơ chế người kiểm tra khi đầu vào thiếu tin cậy.”
+- Thời lượng: 45 giây
+- Lưu ý: Không mô tả phần mềm như công cụ quay video Duet.
+- Nguồn: Chương 3.6
 
-**Tránh:** tuyên bố nhóm tạo ra Whisper hoặc một mô hình nền mới.
+## S06 · Sáu bước từ video đến phản hồi
 
-## Slide 05 — Dữ liệu nghiên cứu · 0:35
+Dùng từng lần bấm để giải thích sáu bước. Kiểm tra chất lượng trước khi chấm. Bước tìm lời dùng bản đã giảm ảnh hưởng giọng mẫu, nhưng bước phân tích dùng âm thanh gốc.
 
-**Thông điệp:** Mỗi tập dữ liệu trả lời một câu hỏi riêng.
+- Thời lượng: 60 giây
+- Lưu ý: Không đọc tên thư viện trong phần chính.
+- Nguồn: Chương 2.4; Hình 2
 
-“Nghiên cứu có 68 video Duet cho bài T001: 50 video phát triển và 18 video giữ riêng. Bên trong development có các tập nhỏ: 12 đánh giá tiêu chí, 6 bản chép tham chiếu cho ASR và 3 bài kiểm tra P2.5. Các tập này không được gộp thành một kết quả chung.”
+## S07 · Chức năng và mức độ chứng cứ
 
-**Tránh:** nói holdout đã được đánh giá cuối.
+Giải thích từng tiêu chí bằng câu hỏi gần gũi. Trôi chảy có số đo bước đầu; phát âm và ngữ điệu còn sơ bộ; đọc đủ dựa vào bản chép; mức dễ hiểu chưa có điểm máy xác nhận.
 
-## Slide 06 — Quy trình xử lý · 1:05
+- Thời lượng: 50 giây
+- Lưu ý: Không gộp tất cả chức năng thành các tiêu chí đã kiểm định.
+- Nguồn: Chương 1.1; 3.5–3.6
 
-**Thông điệp:** Sáu bước tạo bằng chứng từ video đã quay.
+## S08 · Xem bằng chứng và luyện lại
 
-“Đầu vào là Duet đã hoàn thành. Hệ thống căn chỉnh với video mẫu, dùng VAD cùng tín hiệu giảm ảnh hưởng mẫu để tìm lời học sinh, rồi lấy lại đúng đoạn từ âm thanh gốc. Trên âm thanh gốc đó, hệ thống chạy ASR và các phân tích tiêu chí, cuối cùng trả kết quả và gợi ý. Cancellation chỉ hỗ trợ phát hiện; không dùng âm thanh residual để chấm. Nếu đầu vào thiếu tin cậy, hệ thống cảnh báo hoặc chuyển người nghe kiểm tra.”
+Màn hình kết quả cho người học xem từng khía cạnh. Điểm trong ảnh chỉ minh họa giao diện. Gợi ý phải dựa trên dấu hiệu đo được; AI chỉ diễn đạt lại khi được cho phép.
 
-**Tránh:** nói âm thanh cancellation là nguồn điểm.
+- Thời lượng: 50 giây
+- Lưu ý: Không dùng điểm trong ảnh làm benchmark, không khẳng định từ gợi ý chắc chắn phát âm sai.
+- Nguồn: Chương 3.6
 
-## Slide 07 — Kiến trúc kỹ thuật · 0:55
+## S09 · 68 video và tập giữ riêng
 
-**Thông điệp:** Frontend trình bày; backend Python giữ pipeline chấm.
+68 học sinh ở hai lớp, cùng bài T001. 50 video dùng phát triển và 18 video giữ riêng. 12 bài có điểm tham chiếu, 6 bản chép, 3 bài thử nhỏ phục vụ câu hỏi khác nhau. Báo cáo có tăng cường dữ liệu; biến thể không phải học sinh độc lập mới.
 
-“Lớp trải nghiệm dùng React và TypeScript. FastAPI điều phối sang backend Python. FFmpeg, OpenCV và VAD xử lý tín hiệu; faster-whisper small.en tạo transcript; Fluency và MultiPA tạo bằng chứng theo tiêu chí. Nhóm xây pipeline, tích hợp, kiểm soát đầu vào, hiệu chỉnh và giao diện; các mô hình có sẵn được dùng trong phạm vi giới hạn.”
+- Thời lượng: 45 giây
+- Lưu ý: Không cộng các nhóm bằng chứng; không gọi biến thể là dữ liệu độc lập.
+- Nguồn: Chương 2.1–2.3
 
-**Tránh:** mô tả frontend là nơi tính điểm.
+## S10 · Kiểm tra từng khâu
 
-## Slide 08 — Thiết kế thực nghiệm · 0:55
+Đi qua bốn câu hỏi: ghép được không, chép lời sai bao nhiêu, điểm lệch bao nhiêu và cấu hình khóa hoạt động ra sao. Kiểm tra chéo mỗi lần để riêng một bài vẫn thuộc quá trình phát triển.
 
-**Thông điệp:** Không có một con số “accuracy AI” tổng quát.
+- Thời lượng: 50 giây
+- Lưu ý: Không coi kiểm tra chéo là kiểm định cuối trên tập giữ riêng.
+- Nguồn: Chương 2.5–2.7; 3.1–3.4
 
-“P1.4 hỏi có căn chỉnh được không trên 68 video. P2.4 hỏi transcript lệch bao nhiêu trên 6 bản chép người xác nhận. LOOCV hỏi điểm máy lệch bao nhiêu trên 12 bài development. P2.5 hỏi cấu hình đã khóa duy trì ra sao trên 3 bài. Cuối cùng vẫn còn 18 bài giữ riêng chưa dùng. Mỗi phép thử trả lời một câu hỏi khác nhau.”
+## S11 · 62/68 video căn chỉnh được
 
-**Tránh:** cộng hoặc trung bình bốn phép thử thành một accuracy.
+58 video khớp qua hình ảnh và 4 video được âm thanh hỗ trợ. Sáu bài chưa đủ điều kiện gồm năm bài không khớp tin cậy và một tệp không có âm thanh. Mỗi chấm trên hình ứng với một video.
 
-## Slide 09 — Kết quả căn chỉnh · 0:45
+- Thời lượng: 45 giây
+- Lưu ý: 91,2% là tỷ lệ căn chỉnh, không phải tỷ lệ chấm phát âm đúng.
+- Nguồn: Chương 3.1; Bảng 2
 
-**Thông điệp:** 62/68 video đủ điều kiện xử lý tiếp.
+## S12 · Tỷ lệ lỗi chép lời 5,02%
 
-“Trong khảo sát kỹ thuật, 58 video căn chỉnh bằng hình ảnh và 4 video cần âm thanh hỗ trợ, tổng cộng 62 trên 68, tương đương 91,2%. Sáu video chưa đủ điều kiện gồm năm trường hợp căn chỉnh không tin cậy và một trường hợp không có luồng âm thanh. Đây là tỷ lệ căn chỉnh, không phải độ chính xác chấm phát âm hay chấm nói.”
+Trên sáu bản chép tham chiếu, small.en có tỷ lệ lỗi từ thấp nhất trong ba phương án. Khoảng năm lỗi trên 100 từ tham chiếu theo phép đo WER; lỗi máy chưa chắc là lỗi học sinh.
 
-## Slide 10 — Kết quả ASR · 0:45
+- Thời lượng: 45 giây
+- Lưu ý: Không lấy 100% trừ WER để suy ra phát âm đúng.
+- Nguồn: Chương 3.2; Hình 3
 
-**Thông điệp:** small.en có WER thấp nhất trong phép đo này.
+## S13 · Sai lệch điểm theo tiêu chí
 
-“Trên sáu bản chép tham chiếu do con người xác nhận, small.en đạt WER 5,02%, thấp hơn distil-large-v3 là 8,69% và large-v3-turbo là 8,81%. Vì vậy nhóm chọn small.en cho cấu hình hiện tại. WER đo sai khác bản chép; 5,02% không có nghĩa là 94,98% phát âm đúng.”
+MAE là độ lệch tuyệt đối trung bình. Trình bày riêng hai nhóm thử. Hai tiêu chí đầu lệch quanh nửa điểm; ngữ điệu cao hơn. Điểm tham chiếu phát triển chỉ do một người nghe có AI hỗ trợ.
 
-## Slide 11 — Đối chiếu điểm · 0:55
+- Thời lượng: 60 giây
+- Lưu ý: Không suy ra tăng/giảm theo thời gian từ hai nhóm khác nhau.
+- Nguồn: Chương 3.3–3.4; Bảng 3; Hình 4
 
-**Thông điệp:** Sai lệch được đo theo tiêu chí, nhưng mẫu còn nhỏ.
+## S14 · Giới hạn của ba bài thử
 
-“Trong LOOCV với 12 bài development, MAE lần lượt là 0,4204 cho độ trôi chảy, 0,4912 cho phát âm và 0,5881 cho ngữ điệu. Ở P2.5 với 3 bài, các giá trị là 0,5133; 0,4360; và 0,7027. Với ba bài, hai tiêu chí có hai trên ba trường hợp cùng mức, còn ngữ điệu một trên ba. Quy mô này chưa đủ để suy rộng hoặc dùng tương quan làm bằng chứng thống kê.”
+Giữ mẫu số ba bài: trôi chảy và phát âm có 2/3 cùng mức, 3/3 lệch không quá một mức. Ngữ điệu có một bài lệch hơn một mức. Phát âm dự đoán ít phân tán cần so với cách đoán đơn giản.
 
-**Tránh:** diễn giải chênh lệch hai cột như cải thiện theo thời gian.
+- Thời lượng: 50 giây
+- Lưu ý: Không chuyển mẫu nhỏ thành tỷ lệ chính xác trên học sinh nói chung.
+- Nguồn: Chương 2.6; 3.4
 
-## Slide 12 — Sản phẩm và demo · 1:15
+## S15 · Đang mở rộng đối chiếu
 
-**Thông điệp:** Luồng thật đi từ video đến bằng chứng và gợi ý luyện tiếp.
+Báo cáo nói đã chấm thêm mười bài nhưng chưa công bố chỉ số. Đang chấm 68 video; giáo viên chấm trước không xem điểm máy. Kết quả 18 bài giữ riêng phải báo riêng.
 
-“Đây là ảnh giao diện thật được lưu trong báo cáo. Người dùng chọn Duet đã hoàn thành; hệ thống kiểm tra đầu vào và phân tích cục bộ; kết quả hiển thị bằng chứng theo từng tiêu chí, transcript và gợi ý. Dữ liệu demo được ẩn danh, media không được gửi tới dịch vụ chấm bên ngoài. Khi demo trực tiếp, nhóm chỉ trình bày kết quả đã được pipeline thật tạo ra, không giả trạng thái phân tích hay kết nối.”
+- Thời lượng: 35 giây
+- Lưu ý: Không điền số Pearson, ICC, QWK hoặc MAE chưa công bố.
+- Nguồn: Chương 3.7
 
-## Slide 13 — Giới hạn và hướng đi · 0:45
+## S16 · Vai trò trong trường học
 
-**Thông điệp:** Nguyên mẫu có bằng chứng bước đầu, chưa sẵn sàng cho chấm chính thức.
+Phần mềm hỗ trợ đo đạc, học sinh luyện lại và giáo viên quyết định phản hồi. Chạy cục bộ giúp kiểm soát dữ liệu nhưng vẫn có chi phí. Thu thập cần sự đồng ý và quyền rút dữ liệu.
 
-“Phạm vi hiện tại là một bài đọc T001, dữ liệu nhỏ, điểm tham chiếu chưa đa dạng và chủ yếu từ một người đánh giá có AI hỗ trợ. Kiểm định cuối trên 18 bài giữ riêng chưa hoàn tất. Bước tiếp theo là khóa phương pháp rồi kiểm định holdout, có nhiều giáo viên chấm độc lập, nhiều bài đọc và nghiên cứu trước–sau. Đây là kế hoạch, không phải kết quả đã có.”
+- Thời lượng: 45 giây
+- Lưu ý: Chưa sử dụng để chấm chính thức, xếp loại CEFR hoặc IELTS.
+- Nguồn: Mở đầu, mục 1–2; 2.8; 4.6; Kiến nghị
 
-## Slide 14 — Kết luận · 0:35
+## S17 · Hạn chế và kế hoạch hoàn thiện
 
-**Thông điệp:** AI hỗ trợ đo lường; giáo viên giữ vai trò đánh giá.
+Chưa đủ dữ liệu đa dạng, chưa có kiểm định cuối và chưa đo hiệu quả giáo dục. Ưu tiên kiểm định, nhiều giáo viên chấm độc lập, nhiều điều kiện ghi và nghiên cứu trước–sau.
 
-“Nhóm đã xây một quy trình phù hợp với video Duet, tạo bằng chứng có thể nghe lại và đặt giới hạn rõ khi dữ liệu không đủ tin cậy. Kết quả hiện tại là một nguyên mẫu hoạt động và một nền tảng cho kiểm định tiếp theo. AI hỗ trợ đo lường; giáo viên vẫn là người đánh giá.”
+- Thời lượng: 55 giây
+- Lưu ý: Các bước bên phải là kế hoạch, không phải việc đã hoàn tất.
+- Nguồn: Chương 4.2–4.5; Bảng 5
 
-## Phụ lục Q&A
+## S18 · Bằng chứng để phản hồi có căn cứ
 
-- **A01:** công thức Speech Rate, Articulation Rate, Phonation Ratio, Pause Ratio và Mean Length of Run.
-- **A02:** phân biệt WER, MAE và LOOCV.
-- **A03:** các cổng an toàn, quyền từ chối chấm và nguyên tắc không công khai dữ liệu nhận diện.
-- **A04:** vai trò các công nghệ và ranh giới đóng góp của nhóm.
+Kết luận ở đúng mức: có nguyên mẫu hoạt động và cách đánh giá minh bạch. Bằng chứng bước đầu tạo cơ sở cho kiểm định độc lập; giáo viên vẫn là người đánh giá. Mời hội đồng trao đổi, mở phụ lục khi cần.
 
+- Thời lượng: 40 giây
+- Lưu ý: Không tuyên bố đã chứng minh học sinh tiến bộ.
+- Nguồn: Kết luận và kiến nghị; 4.1
+
+## A01 · Kiến trúc hệ thống
+
+Toàn bộ thuật toán chạy ở Python; giao diện chỉ đảm nhiệm hiển thị và tương tác.
+
+- Thời lượng: Theo câu hỏi
+- Lưu ý: Không suy rộng kết quả ngoài phạm vi báo cáo.
+- Nguồn: Chương 2.5.4
+
+## A02 · Căn chỉnh và âm thanh gốc
+
+Giải thích neo hình ảnh, âm thanh bổ sung, các ngưỡng và lý do quay lại âm thanh gốc.
+
+- Thời lượng: Theo câu hỏi
+- Lưu ý: Không suy rộng kết quả ngoài phạm vi báo cáo.
+- Nguồn: Chương 2.5.1
+
+## A03 · Đặc trưng độ trôi chảy
+
+Tốc độ, tỷ lệ phát tiếng, tỷ lệ dừng và độ dài chuỗi nói chỉ phản ánh từng mặt của nhịp nói.
+
+- Thời lượng: Theo câu hỏi
+- Lưu ý: Không suy rộng kết quả ngoài phạm vi báo cáo.
+- Nguồn: Chương 2.5.2
+
+## A04 · Hiệu chỉnh MultiPA
+
+Không huấn luyện lại mô hình nền; quy đổi điểm trong miền điểm tham chiếu đã quan sát.
+
+- Thời lượng: Theo câu hỏi
+- Lưu ý: Không suy rộng kết quả ngoài phạm vi báo cáo.
+- Nguồn: Chương 2.5.3; 3.4
+
+## A05 · Bảng kết quả đầy đủ
+
+Đọc đúng mẫu số và MAE của từng nhóm thử; không gộp thành độ chính xác chung.
+
+- Thời lượng: Theo câu hỏi
+- Lưu ý: Không suy rộng kết quả ngoài phạm vi báo cáo.
+- Nguồn: Chương 3.3–3.4
+
+## A06 · Chất lượng và dữ liệu học sinh
+
+Dừng khi thiếu bằng chứng, ghi phiên bản và bảo vệ dữ liệu. Điều chỉnh tên chủ đề chỉ ảnh hưởng ranh giới đọc đủ.
+
+- Thời lượng: Theo câu hỏi
+- Lưu ý: Không suy rộng kết quả ngoài phạm vi báo cáo.
+- Nguồn: Chương 2.7–2.8; 3.1; 3.5–3.6
+
+## A07 · Kế hoạch kiểm định và chỉ tiêu
+
+Các hệ số và ngưỡng trên slide là kế hoạch hoặc mục tiêu tham khảo, chưa là kết quả đo.
+
+- Thời lượng: Theo câu hỏi
+- Lưu ý: Không suy rộng kết quả ngoài phạm vi báo cáo.
+- Nguồn: Chương 3.7; 4.4–4.5
+
+## A08 · Nguồn nội dung
+
+Báo cáo là nguồn khoa học chính. Whisper và MultiPA là mô hình có sẵn.
+
+- Thời lượng: Theo câu hỏi
+- Lưu ý: Không suy rộng kết quả ngoài phạm vi báo cáo.
+- Nguồn: Chương Tài liệu tham khảo

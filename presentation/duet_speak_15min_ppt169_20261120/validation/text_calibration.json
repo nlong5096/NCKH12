@@ -1,0 +1,130 @@
+{
+  "roles": {
+    "body": {
+      "family": "Arial",
+      "size": 30.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.1,
+      "latin_chars_per_100px": 6.7,
+      "caps_chars_per_100px": 5.2,
+      "digits_chars_per_100px": 5.7,
+      "citation_chars_per_100px": 6.6,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1976.8,
+        "slide": "P05",
+        "text": "đủ→tiếp tục,cầnkiểmtra→giáoviên,thiếuau…"
+      }
+    },
+    "title": {
+      "family": "Arial",
+      "size": 44.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 2.1,
+      "latin_chars_per_100px": 4.4,
+      "caps_chars_per_100px": 3.5,
+      "digits_chars_per_100px": 3.9,
+      "citation_chars_per_100px": 4.3,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 911.2,
+        "slide": "P10",
+        "text": "Đã xử lý được phần lớn video thử nghiệm"
+      }
+    },
+    "subtitle": {
+      "family": "Arial",
+      "size": 36.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 2.6,
+      "latin_chars_per_100px": 5.6,
+      "caps_chars_per_100px": 4.4,
+      "digits_chars_per_100px": 4.7,
+      "citation_chars_per_100px": 5.5,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1497.8,
+        "slide": "P10",
+        "text": "62/68 chứng minh bước căn chỉnh khả thi…"
+      }
+    },
+    "annotation": {
+      "family": "Arial",
+      "size": 24.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.9,
+      "latin_chars_per_100px": 8.4,
+      "caps_chars_per_100px": 6.5,
+      "digits_chars_per_100px": 7.1,
+      "citation_chars_per_100px": 8.2,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "cover": {
+      "family": "Arial",
+      "size": 56.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 1.7,
+      "latin_chars_per_100px": 3.4,
+      "caps_chars_per_100px": 2.8,
+      "digits_chars_per_100px": 3.0,
+      "citation_chars_per_100px": 3.4,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "data": {
+      "family": "Arial",
+      "size": 44.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 2.1,
+      "latin_chars_per_100px": 4.4,
+      "caps_chars_per_100px": 3.5,
+      "digits_chars_per_100px": 3.9,
+      "citation_chars_per_100px": 4.3,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "display": {
+      "family": "Arial",
+      "size": 72.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 1.3,
+      "latin_chars_per_100px": 2.7,
+      "caps_chars_per_100px": 2.1,
+      "digits_chars_per_100px": 2.4,
+      "citation_chars_per_100px": 2.7,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "footnote": {
+      "family": "Arial",
+      "size": 16.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 5.9,
+      "latin_chars_per_100px": 12.6,
+      "caps_chars_per_100px": 9.8,
+      "digits_chars_per_100px": 10.6,
+      "citation_chars_per_100px": 12.3,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "lead": {
+      "family": "Arial",
+      "size": 32.0,
+      "weight": "bold",
+      "cjk_chars_per_100px": 2.9,
+      "latin_chars_per_100px": 6.0,
+      "caps_chars_per_100px": 4.8,
+      "digits_chars_per_100px": 5.3,
+      "citation_chars_per_100px": 6.0,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    }
+  },
+  "script_samples": {},
+  "source": "spec_lock.md",
+  "generated_at": "2026-11-20T09:21:35Z",
+  "notes": [
+    "rates for cover, data, display, lead, title are measured at bold weight"
+  ]
+}

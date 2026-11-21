@@ -1,58 +1,51 @@
-# DUET / SPEAK — Bài trình bày nghiên cứu tương tác
+# DUET / SPEAK · Web Slide nghiên cứu
 
-Đây là thành phẩm trình chiếu chính của báo cáo NCKH12. Bài trình bày là một web deck React/TypeScript tỷ lệ 16:9, hoạt động cục bộ, có điều hướng bàn phím, animation theo từng bước, overview, presenter notes và phụ lục kỹ thuật. PDF trong `output/` chỉ là bản dự phòng được xuất từ chính web deck.
+18 slide chính, 8 slide phụ lục, khung trình chiếu 16:9. Nội dung dành cho hội đồng không chuyên công nghệ; thuật toán và kiến trúc nằm ở phụ lục. Phần chính có thời lượng gợi ý 14 phút 45 giây, chưa tính trao đổi.
 
-## Mở nhanh trên Windows
+## Mở bài trình chiếu
 
-Nhấp đúp `START_PRESENTATION.bat`. Trình duyệt sẽ tự mở tại slide đầu tiên. Sau khi chuẩn bị lần đầu, toàn bộ font và ảnh đều nằm cục bộ nên không cần Internet để trình chiếu.
-
-## Chạy bằng dòng lệnh
-
-Yêu cầu Node.js 20+ và Corepack.
+Trên Windows, nhấp đúp `START_PRESENTATION.bat`. Yêu cầu Node.js 20.19+ hoặc 22.12+. Lần đầu cần Internet để cài thư viện; font, biểu tượng và ảnh được đóng gói cục bộ, không dùng CDN trong lúc trình chiếu.
 
 ```powershell
-corepack pnpm install
-corepack pnpm dev --host 127.0.0.1 --port 4173
+npm install --no-package-lock
+npm run dev -- --host 127.0.0.1 --port 4173 --strictPort
 ```
 
-Mở `http://127.0.0.1:4173/#/s01-f0`.
+Mở [bài trình chiếu cục bộ](http://127.0.0.1:4173/#/s01-f0). Nếu cổng đã có bản trình chiếu đang chạy, dùng cửa sổ đó. Bản build nằm trong `dist/`; dùng `npm run preview` để xem qua HTTP. Không mở `dist/index.html` trực tiếp bằng giao thức file.
 
-## Điều khiển chính
+## Điều khiển
 
-- `→` hoặc `Space`: hiện bước tiếp theo / sang slide sau.
-- `←`: quay lại bước trước / slide trước.
-- `Home`, `End`: đầu / cuối deck.
-- `O`: tổng quan tất cả slide.
-- `N`: ghi chú người thuyết trình.
-- `M`: ẩn/hiện thanh điều khiển.
-- `A`: chuyển tới phụ lục.
-- `F`: toàn màn hình.
+| Phím | Chức năng |
+|---|---|
+| →, Space, PageDown | Hiện bước tiếp theo hoặc sang slide sau |
+| ←, PageUp | Quay lại bước trước; giữ trạng thái đã hiện của slide trước |
+| Home / End | Đầu / kết luận phần chính |
+| O | Tổng quan, chọn slide chính hoặc phụ lục |
+| N | Lời dẫn, thời lượng, lưu ý và nguồn |
+| M | Ẩn/hiện thanh điều khiển |
+| A / B | Phụ lục / trở lại kết luận |
+| F | Bật/tắt toàn màn hình |
+| Escape | Đóng tổng quan và ghi chú |
 
-URL lưu cả slide và fragment, ví dụ `#/s04-f3`, nên có thể tải lại hoặc mở trực tiếp mà không mất vị trí.
+Phần chính dừng ở slide kết luận; phụ lục chỉ mở khi chọn rõ ràng. URL lưu cả slide và bước, ví dụ `#/s06-f3`. Chế độ giảm chuyển động của hệ điều hành tắt hiệu ứng, vẫn giữ trình tự nội dung.
 
-## Build, kiểm thử và xuất bản dự phòng
+## Kiểm tra và ảnh tổng quan
 
 ```powershell
-corepack pnpm build
-corepack pnpm test
-corepack pnpm test:e2e
-corepack pnpm capture
-corepack pnpm export:pdf
+npm run build
+npm test
+npm run test:e2e
+npm run capture
+npm run contact-sheet
 ```
 
-- Screenshot kiểm tra: `screenshots/1920x1080/` và `screenshots/1366x768/`.
-- Contact sheet: `screenshots/contact-sheet-1920.png` và `screenshots/contact-sheet-1366.png`.
-- PDF dự phòng: `output/pdf/DUET-SPEAK-NCKH12.pdf`.
+Kiểm thử trình duyệt và chụp ảnh mặc định dùng Google Chrome trên Windows. Có thể đặt `CHROME_PATH` cho công cụ capture. `contact-sheet` dùng máy chủ Vite đang chạy để tạo lời dẫn từ chính metadata của deck và hai ảnh tổng quan. Không cần Python.
 
-## Phạm vi khoa học
+- `screenshots/1920x1080/`, `screenshots/1366x768/`: ảnh toàn bộ 26 slide.
+- `screenshots/contact-sheet-1920.png`, `screenshots/contact-sheet-1366.png`: ảnh tổng quan.
+- `screenshots/layout-issues.json`: phát hiện nội dung vượt vùng trình chiếu.
+- `docs/speaker-notes.md`: lời dẫn và thời lượng từng slide.
+- `docs/content-audit.md`: đối chiếu báo cáo và các thay đổi biên tập.
+- `docs/testing-report.md`: kết quả kiểm tra và giới hạn.
 
-Bài trình bày không thay đổi scorer, calibration, holdout hay sản phẩm thi đã khóa. Các con số được lấy từ `BAO_CAO_NCKH12.docx`; nguồn chi tiết có trong `docs/content-audit.md`. Deck không tuyên bố CEFR/IELTS, không đưa ra điểm tổng hợp và không diễn giải 91,2% hoặc WER như độ chính xác chấm nói.
-
-## Tài liệu bàn giao
-
-- `docs/presentation-guide.md`: hướng dẫn trình chiếu và xử lý sự cố.
-- `docs/speaker-notes.md`: kịch bản 14 slide, mục tiêu 11 phút 15 giây.
-- `docs/content-audit.md`: truy vết nội dung và số liệu.
-- `docs/design-decisions.md`: kiến trúc và quyết định thiết kế.
-- `docs/testing-report.md`: kiểm thử, ảnh kiểm tra và giới hạn.
-
+Nguồn khoa học chính là DOCX và bản trích `report.md` trong `../duet_speak_report_20261120/sources/`. Không bổ sung chỉ số chưa được báo cáo công bố. Ảnh sản phẩm minh họa chức năng, các điểm trong ảnh không phải số liệu kiểm định. Mọi sửa đổi ở đây chỉ thuộc bài trình chiếu.

@@ -1,0 +1,15 @@
+{
+  "pages": 28,
+  "notes": 28,
+  "visual_reviews": 28,
+  "statuses": {
+    "ok": 28
+  },
+  "svg_rendered_png": 28,
+  "primary_source": "User Word report 11/2026; repository artefacts for verification",
+  "editable_export": "DrawingML shape/text; screenshots remain bitmap",
+  "powerpoint_actual_render": 28,
+  "powerpoint_visual_review": "All 28 pages inspected in 7 contact sheets; no clipping/overlap/font/image defects detected",
+  "notes_in_pptx": 28,
+  "pptx_sha256": "96964dbc7a08e4209c8e03740d36f152f994619873e5bcca608f6f244899c2c6"
+}

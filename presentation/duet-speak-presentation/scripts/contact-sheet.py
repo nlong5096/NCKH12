@@ -3,10 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 
-SLIDES = [
-    "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09",
-    "s10", "s11", "s12", "s13", "s14", "a01", "a02", "a03", "a04",
-]
+SLIDES = [f"s{i:02}" for i in range(1, 19)] + [f"a{i:02}" for i in range(1, 9)]
 
 
 def build_sheet(size: str) -> None:

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Arial" font-size="30" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FAFCFC"/>
+<g id="heading" data-pptx-bounds="56 25 1168 115"><text x="56" y="44" font-size="16" fill="#007F7A">QUY TRÌNH · 1/4 NHẬN BÀI</text><text x="56" y="108" font-size="44" font-weight="bold" fill="#153448">Bắt đầu với một bài thật: D043</text></g>
+<g id="assessment-screen" data-pptx-bounds="56 171 696 435"><image href="../images/product-assessment.png" x="56" y="171" width="696" height="435" preserveAspectRatio="xMidYMid meet"/></g>
+<g id="input-output-story" data-pptx-bounds="794 172 430 437"><text x="794" y="203" font-size="24" font-weight="bold" fill="#007F7A">NHẬN GÌ?</text><text x="794" y="245" fill="#153448">Video D043<tspan x="794" dy="42">+ mẫu T001 đã có sẵn.</tspan></text><text x="794" y="357" font-size="24" font-weight="bold" fill="#007F7A">LÀM GÌ?</text><text x="794" y="400" fill="#153448">Chọn tệp hoặc bài demo.</text><text x="794" y="510" font-size="24" font-weight="bold" fill="#007F7A">TRẢ VỀ GÌ?</text><text x="794" y="553" fill="#153448">Bài sẵn sàng kiểm tra.</text></g>
+<g id="case-context" data-pptx-bounds="56 617 1168 35"><text x="56" y="642" font-size="24" fill="#526875">T001: bài đọc theo mẫu · D043: mã một bài nộp, không phải tên học sinh.</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="56 670 1168 28" font-size="16" fill="#526875"><text x="56" y="688">Nguồn: PPT gốc trang 04, 13; ảnh 02_ASSESSMENT.png · Ví dụ phát triển, không phải bài kiểm định giữ riêng.</text><text x="1224" y="688" text-anchor="end">04 / 12</text></g>
+</svg>

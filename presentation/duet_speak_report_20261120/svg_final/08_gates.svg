@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Arial" font-size="26" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FAFCFC"/>
+<g id="heading" data-pptx-bounds="56 24 1168 110"><text x="56" y="42" font-size="16" fill="#007F7A">02 · KIỂM SOÁT ĐẦU VÀO</text><text x="56" y="103" font-size="40" font-weight="bold" fill="#153448">GREEN, AMBER, RED là cổng kỹ thuật</text></g>
+<g id="green" data-pptx-bounds="56 181 1168 116"><rect x="56" y="181" width="8" height="111" fill="#007F7A"/><text x="88" y="219" font-size="30" font-weight="bold" fill="#007F7A">GREEN · Có thể tiếp tục theo chính sách xử lý</text><text x="88" y="268" fill="#203746">Bằng chứng đầu vào đủ điều kiện để trích xuất; chưa xác nhận điểm năng lực.</text></g>
+<g id="amber" data-pptx-bounds="56 325 1168 116"><rect x="56" y="325" width="8" height="111" fill="#946017"/><text x="88" y="363" font-size="30" font-weight="bold" fill="#946017">AMBER · Cần nghe và xem xét thêm</text><text x="88" y="412" fill="#203746">Lệch căn chỉnh, giọng mẫu còn lẫn, nhiễu hoặc giọng học sinh quá nhỏ.</text></g>
+<g id="red" data-pptx-bounds="56 469 1168 116"><rect x="56" y="469" width="8" height="111" fill="#A44242"/><text x="88" y="507" font-size="30" font-weight="bold" fill="#A44242">RED · Dừng hoặc yêu cầu bản ghi khác</text><text x="88" y="556" fill="#203746">Ví dụ: không có luồng âm thanh hoặc không căn chỉnh đáng tin cậy.</text></g>
+<g id="caveat" data-pptx-bounds="56 607 1168 40"><text x="56" y="633" font-size="22" font-weight="bold" fill="#153448">Chất lượng dữ liệu đầu vào ≠ chất lượng bài nói của học sinh.</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="56 670 1168 28" font-size="16" fill="#526875"><text x="56" y="688">Nguồn: Báo cáo Word §2.4, §3.1; duet_segmenter/scorability.py, smart_pipeline.py</text><text x="1224" y="688" text-anchor="end">08 / 28</text></g>
+</svg>

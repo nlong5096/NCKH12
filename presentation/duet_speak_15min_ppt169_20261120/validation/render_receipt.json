@@ -1,0 +1,237 @@
+{
+  "project": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120",
+  "server_url": "http://127.0.0.1:6060",
+  "rendered": 12,
+  "failed": 0,
+  "all_background": 0,
+  "pages": [
+    {
+      "page": "01_opening.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\01_opening.png",
+      "bytes": 142970,
+      "all_background": false
+    },
+    {
+      "page": "02_problem.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\02_problem.png",
+      "bytes": 70156,
+      "all_background": false
+    },
+    {
+      "page": "03_solution.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\03_solution.png",
+      "bytes": 62777,
+      "all_background": false
+    },
+    {
+      "page": "04_input.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\04_input.png",
+      "bytes": 136353,
+      "all_background": false
+    },
+    {
+      "page": "05_locate.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\05_locate.png",
+      "bytes": 77685,
+      "all_background": false
+    },
+    {
+      "page": "06_analyse.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\06_analyse.png",
+      "bytes": 75944,
+      "all_background": false
+    },
+    {
+      "page": "07_feedback.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\07_feedback.png",
+      "bytes": 84915,
+      "all_background": false
+    },
+    {
+      "page": "08_product.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\08_product.png",
+      "bytes": 121960,
+      "all_background": false
+    },
+    {
+      "page": "09_d043.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\09_d043.png",
+      "bytes": 68065,
+      "all_background": false
+    },
+    {
+      "page": "10_results.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\10_results.png",
+      "bytes": 82783,
+      "all_background": false
+    },
+    {
+      "page": "11_limits.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\11_limits.png",
+      "bytes": 72636,
+      "all_background": false
+    },
+    {
+      "page": "12_conclusion.svg",
+      "ok": true,
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "path": "C:\\Users\\Eden2Three\\Desktop\\KHKT\\NCKH12\\presentation\\duet_speak_15min_ppt169_20261120\\.preview\\12_conclusion.png",
+      "bytes": 78853,
+      "all_background": false
+    }
+  ]
+}

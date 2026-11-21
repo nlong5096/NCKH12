@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "ppt_to_md.py",
+  "conversion_type": "pptx",
+  "source": {
+    "path": "C:/Users/Eden2Three/Desktop/KHKT/NCKH12/presentation/project_report.pptx",
+    "name": "project_report.pptx",
+    "suffix": ".pptx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 1074741
+  },
+  "outputs": {
+    "markdown": "original_presentation.md",
+    "asset_dir": "original_presentation_files",
+    "image_manifest": "original_presentation_files/image_manifest.json",
+    "image_count": 3
+  },
+  "markdown": {
+    "line_count": 1110,
+    "char_count": 34952,
+    "heading_count": 57,
+    "table_count": 1,
+    "image_ref_count": 3,
+    "link_count": 0
+  },
+  "warnings": []
+}
